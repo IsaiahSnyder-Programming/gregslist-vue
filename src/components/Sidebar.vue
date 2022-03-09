@@ -1,9 +1,7 @@
 <template>
   <div class="sidebar row flex-column h-100 bg-success p-3">
     <h2 class="col-12 selectable p-1 rounded" @click="goTo('Cars')">Cars</h2>
-    <h2 class="col-12 selectable p-1 rounded" @click="goTo('Houses')">
-      Houses
-    </h2>
+    <h2 class="col-12 selectable p-1 rounded" @click="goTo('Houses')">Houses</h2>
     <h2 class="col-12 selectable p-1 rounded" @click="goTo('Jobs')">Jobs</h2>
   </div>
 </template>
